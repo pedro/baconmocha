@@ -16,7 +16,9 @@ begin
     s.authors = ["Pedro Belo"]
     s.add_dependency 'bacon'
     s.add_dependency 'mocha'
+    s.rubyforge_project = 'baconmocha'
   end
+  Jeweler::RubyforgeTasks.new
 rescue LoadError
   puts "Jeweler, or one of its dependencies, is not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
 end

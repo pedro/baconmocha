@@ -17,8 +17,11 @@ Gem::Specification.new do |s|
     "README.markdown"
   ]
   s.files = [
-    "README.markdown",
+    ".gitignore",
+     "README.markdown",
      "Rakefile",
+     "VERSION",
+     "baconmocha.gemspec",
      "lib/baconmocha.rb",
      "spec/spec.rb"
   ]
