@@ -1,5 +1,6 @@
 desc 'Run specs'
 task :spec do
+  require 'lib/baconmocha'
   sh 'bacon -q spec/spec.rb'
 end
 task :default => :spec
