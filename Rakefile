@@ -16,7 +16,7 @@ begin
     Award, together with file-tail and todo"
     s.authors = ["Pedro Belo"]
     s.add_dependency 'bacon'
-    s.add_dependency 'mocha'
+    s.add_dependency 'mocha', '>=0.9.6'
     s.rubyforge_project = 'baconmocha'
   end
   Jeweler::RubyforgeTasks.new

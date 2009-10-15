@@ -41,13 +41,13 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<bacon>, [">= 0"])
-      s.add_runtime_dependency(%q<mocha>, [">= 0"])
+      s.add_runtime_dependency(%q<mocha>, [">= 0.9.6"])
     else
       s.add_dependency(%q<bacon>, [">= 0"])
-      s.add_dependency(%q<mocha>, [">= 0"])
+      s.add_dependency(%q<mocha>, [">= 0.9.6"])
     end
   else
     s.add_dependency(%q<bacon>, [">= 0"])
-    s.add_dependency(%q<mocha>, [">= 0"])
+    s.add_dependency(%q<mocha>, [">= 0.9.6"])
   end
 end
