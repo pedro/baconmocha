@@ -10,7 +10,12 @@ Award, together with file-tail and todo.
 Usage
 -----
 
-Just require 'baconmocha' and use both like you wanted to, before running into the issues that got you here.
+Install
+
+    $ sudo gem install baconmocha
+
+Then require 'baconmocha' and use both like you wanted to, before 
+running into the issues that got you here.
 
 
 Contributors
