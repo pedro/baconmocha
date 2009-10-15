@@ -10,8 +10,7 @@ Award, together with file-tail and todo.
 Usage
 -----
 
-Just require 'baconmocha' and use both like you tried to 
-before googling for a solution for all the annoyances.
+Just require 'baconmocha' and use both like you wanted to, before running into the issues that got you here.
 
 
 Contributors
