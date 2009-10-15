@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/pedro/baconmocha}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
+  s.rubyforge_project = %q{baconmocha}
   s.rubygems_version = %q{1.3.4}
   s.summary = %q{Gluing Bacon and Mocha since... 2009}
   s.test_files = [
